@@ -1,0 +1,38 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vh 10vw;
+  width: 500px;
+  margin: 5vh;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #4fbb44;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear;
+}
+
+.translate:hover {
+  transform: translate(25px, 25px);
+}
+.translatex:hover {
+  transform: translateX(-25px);
+}
+.translatey:hover {
+  transform: translate(25px);
+}
+.rotate:hover {
+  transform: rotate(45deg);
+}
+.scale:hover {
+  transform: scale(1.2, 1.5);
+}
+.skew:hover {
+  transform: skew(20deg, 10deg);
+}

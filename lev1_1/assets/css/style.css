@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #e16664;
+  transition: all 1s ease-in;
+  transform-origin: 0% bottom;
+}
+
+div:hover {
+  transform: scale(1.5) rotate(90deg);
+}
